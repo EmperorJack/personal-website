@@ -15,9 +15,20 @@
 
       <div class="section email-link"> 
         <div class="panel">
-          <span><a class="text-link" href="mailto:jack.v.purvis@gmail.com">jack.v.purvis@gmail.com</a></span>
+          <span><a id="emailAddress" class="text-link"></a></span>
         </div>
       </div>
+
+      <script type="text/javascript">
+        user = 'jack.v.purvis';
+        domain = 'gmail.com';
+        email = user + '@' + domain;
+
+        element = document.getElementById('emailAddress');
+
+        element.innerHTML = email;
+        element.setAttribute('href', 'mailto:' + email);
+      </script>
 
       <div class="section links">
         <div class="panel">
