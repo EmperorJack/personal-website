@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #cccccc;
   background-color: #40403d;
   padding: 0;
@@ -65,8 +65,25 @@ h3 {
   margin: 24px;
 }
 
-.links span {
-  margin: 24px;
+.links a {
+  display: inline-block;
+  padding: 4px 18px;
+}
+
+.icon-link {
+  color: #A6E22E;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon-link span {
+  text-decoration: underline;
+}
+
+i.fab {
+  display: block;
+  margin: 4px;
+  text-decoration: none;
 }
 
 .text-link {
