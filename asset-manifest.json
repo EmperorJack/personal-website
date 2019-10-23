@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/emperorjack.github.io/static/css/main.11bf8186.chunk.css",
+    "main.js": "/emperorjack.github.io/static/js/main.206a7d6e.chunk.js",
+    "main.js.map": "/emperorjack.github.io/static/js/main.206a7d6e.chunk.js.map",
+    "runtime-main.js": "/emperorjack.github.io/static/js/runtime-main.516a5f76.js",
+    "runtime-main.js.map": "/emperorjack.github.io/static/js/runtime-main.516a5f76.js.map",
+    "static/css/2.22d6b5ec.chunk.css": "/emperorjack.github.io/static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.5ab7d8bb.chunk.js": "/emperorjack.github.io/static/js/2.5ab7d8bb.chunk.js",
+    "static/js/2.5ab7d8bb.chunk.js.map": "/emperorjack.github.io/static/js/2.5ab7d8bb.chunk.js.map",
+    "index.html": "/emperorjack.github.io/index.html",
+    "precache-manifest.10d2fc39b03b5b4f8dfef3db1696e141.js": "/emperorjack.github.io/precache-manifest.10d2fc39b03b5b4f8dfef3db1696e141.js",
+    "service-worker.js": "/emperorjack.github.io/service-worker.js",
+    "static/css/2.22d6b5ec.chunk.css.map": "/emperorjack.github.io/static/css/2.22d6b5ec.chunk.css.map",
+    "static/css/main.11bf8186.chunk.css.map": "/emperorjack.github.io/static/css/main.11bf8186.chunk.css.map",
+    "static/media/index.scss": "/emperorjack.github.io/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/profile.png": "/emperorjack.github.io/static/media/profile.c40ad354.png",
+    "static/media/screenshot_1541038272_35467.png": "/emperorjack.github.io/static/media/screenshot_1541038272_35467.31d6fcdf.png",
+    "static/media/screenshot_1543479869_463215.png": "/emperorjack.github.io/static/media/screenshot_1543479869_463215.10a0080e.png",
+    "static/media/screenshot_1545120495_235768.png": "/emperorjack.github.io/static/media/screenshot_1545120495_235768.b64a2d44.png",
+    "static/media/screenshot_1545865352_46967.png": "/emperorjack.github.io/static/media/screenshot_1545865352_46967.f1ac7fbc.png",
+    "static/media/screenshot_1551433412_70563.png": "/emperorjack.github.io/static/media/screenshot_1551433412_70563.ebf8e995.png",
+    "static/media/screenshot_1551772931_267000.png": "/emperorjack.github.io/static/media/screenshot_1551772931_267000.39ceae91.png",
+    "static/media/screenshot_1554362622_247116.png": "/emperorjack.github.io/static/media/screenshot_1554362622_247116.13c4e6a4.png",
+    "static/media/screenshot_1559383921_383822.png": "/emperorjack.github.io/static/media/screenshot_1559383921_383822.dae4912e.png",
+    "static/media/screenshot_1562914521_11415.png": "/emperorjack.github.io/static/media/screenshot_1562914521_11415.d3ad7747.png",
+    "static/media/screenshot_1565413092_715942.png": "/emperorjack.github.io/static/media/screenshot_1565413092_715942.c285b22a.png",
+    "static/media/screenshot_1567592143_608136.png": "/emperorjack.github.io/static/media/screenshot_1567592143_608136.2ded3ce0.png",
+    "static/media/screenshot_1567604174_41724.png": "/emperorjack.github.io/static/media/screenshot_1567604174_41724.22280b8d.png",
+    "static/media/screenshot_1567663328_190520.png": "/emperorjack.github.io/static/media/screenshot_1567663328_190520.18ec1e28.png",
+    "static/media/screenshot_1571392758_833374.png": "/emperorjack.github.io/static/media/screenshot_1571392758_833374.25df2e33.png",
+    "static/media/smoke-simulation.jpg": "/emperorjack.github.io/static/media/smoke-simulation.acd85837.jpg",
+    "static/media/visor.png": "/emperorjack.github.io/static/media/visor.99071ab6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.516a5f76.js",
+    "static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.5ab7d8bb.chunk.js",
+    "static/css/main.11bf8186.chunk.css",
+    "static/js/main.206a7d6e.chunk.js"
+  ]
+}
