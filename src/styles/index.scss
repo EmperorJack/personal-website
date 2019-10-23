@@ -1,0 +1,19 @@
+@import '~font-awesome/scss/font-awesome.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import 'variables.scss';
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: $background-color;
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+  color: $text-color;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

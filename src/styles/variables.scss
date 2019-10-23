@@ -1,0 +1,7 @@
+$background-color: #2b3142;
+
+$text-color: lightsteelblue;
+$secondary-text-color: desaturate(darken($text-color, 35%), 25%);
+$title-color: lighten($text-color, 10%);
+$link-color: steelblue;
+$link-hover-color: lighten($link-color, 35%);
