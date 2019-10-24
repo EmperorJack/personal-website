@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import 'styles/app.scss';
 import Header from './Header.jsx';
 import Nav from './Nav.jsx';
@@ -41,7 +42,15 @@ const App = () => {
             />
           </Col>
           <Col xs={12} sm={9} md={8}>
-            <PageComponent />
+            <ReactCSSTransitionGroup
+              transitionName="page-animation"
+              transitionEnterTimeout={500}
+              transitionLeaveTimeout={300}
+            >
+              <div key={page}>
+                <PageComponent />
+              </div>
+            </ReactCSSTransitionGroup>
           </Col>
 
           <Col xs={0} sm={0} md={2} />
