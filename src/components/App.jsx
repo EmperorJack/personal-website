@@ -8,6 +8,7 @@ import Projects from './pages/Projects.jsx';
 import Performances from './pages/Performances.jsx';
 import Research from './pages/Research.jsx';
 import Media from './pages/Media.jsx';
+import Gallery from './pages/Gallery.jsx';
 import Footer from './Footer.jsx';
 
 const pages = {
@@ -16,6 +17,7 @@ const pages = {
   performances: Performances,
   research: Research,
   media: Media,
+  gallery: Gallery,
 };
 
 const App = () => {

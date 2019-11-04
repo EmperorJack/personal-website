@@ -18,7 +18,7 @@ const Social = () => (
         url={url}
         customClassName="social__link"
       >
-        <i className={`fa fa-${service} fa-sm`}></i>
+        <i className={`fa fa-${service} fa-sm`} />
       </Link>
     ))}
   </div>

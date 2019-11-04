@@ -22,9 +22,8 @@ const sections = {
     </p>
 
     <div className="about__contact">
-      Contact me
-      <br />
-      <Link url="mailto:jack.v.purvis@gmail.com">jack.v.purvis@gmail.com</Link>
+      <Link url="mailto:jack.v.purvis@gmail.com"><i className="fa fa-envelope fa-sm" />jack.v.purvis@gmail.com</Link>
+      <Link url="https://goo.gl/maps/gfbi1gVWzSNv2ebR7"><i className="fa fa-map-marker fa-sm" />Wellington, New Zealand</Link>
     </div>
   </Fragment>),
 };

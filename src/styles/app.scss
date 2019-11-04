@@ -91,6 +91,11 @@
   &__contact {
     text-align: center;
     margin: 24px 0;
+
+    .link {
+      display: block;
+      margin-bottom: 16px;
+    }
   }
 }
 
@@ -112,6 +117,10 @@
 
   &:hover {
     color: $link-hover-color;
+  }
+
+  i {
+    margin-right: 8px;
   }
 }
 
