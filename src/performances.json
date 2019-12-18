@@ -1,0 +1,136 @@
+{
+  "2019": [
+    {
+      "date": "06/12/2019",
+      "name": "Unruly Family 2",
+      "location": "Laundry, Wellington, New Zealand"
+    },
+    {
+      "date": "15/11/2019",
+      "name": "Trancendence PSY 101",
+      "location": "Valhalla, Wellington, New Zealand"
+    },
+    {
+      "date": "18/10/2019",
+      "name": "The Housing Project Laundry Takeover",
+      "location": "Laundry, Wellington, New Zealand"
+    },
+    {
+      "date": "20/09/2019",
+      "name": "Vertigo IV",
+      "location": "Valhalla, Wellington, New Zealand"
+    },
+    {
+      "date": "07/09/2019",
+      "name": "Limbic Resonance 2",
+      "location": "Valhalla, Wellington, New Zealand"
+    },
+    {
+      "date": "24/08/2019",
+      "name": "Unruly Family",
+      "location": "Laundry, Wellington, New Zealand"
+    },
+    {
+      "date": "19/07/2019",
+      "name": "Star Sailing",
+      "location": "Wellington, New Zealand"
+    },
+    {
+      "date": "13/07/2019",
+      "name": "Limbic Resonance",
+      "location": "Valhalla, Wellington, New Zealand",
+      "url": "https://tinyurl.com/visor-limbic-resonance-01",
+      "url_label": "recording"
+    },
+    {
+      "date": "07/06/2019",
+      "name": "Optimal Workshop Party",
+      "location": "Wellington, New Zealand"
+    },
+    {
+      "date": "06/03/2019",
+      "name": "Eyegum Wednesdays",
+      "location": "San Fran, Wellington, New Zealand",
+      "url": "https://tinyurl.com/visor-eyegum-2019",
+      "url_label": "recording"
+    },
+    {
+      "date": "17/02/2019",
+      "name": "TOPLAP 15th Birthday Livestream",
+      "location": "Worldwide. Streamed from Wellington, New Zealand",
+      "url": "https://tinyurl.com/visor-toplap15",
+      "url_label": "recording"
+    },
+    {
+      "date": "10/02/2019",
+      "name": "Taniwha's Den 2019 Cliff",
+      "location": "Hinakura, Martinborough, New Zealand"
+    },
+    {
+      "date": "09/02/2019",
+      "name": "Taniwha's Den 2019 Mainstage",
+      "location": "Hinakura, Martinborough, New Zealand",
+      "url": "https://tinyurl.com/visor-taniwhasden-2019",
+      "url_label": "recording"
+    },
+    {
+      "date": "01/02/2019",
+      "name": "Sound Night 09: Algorave",
+      "location": "panke.gallery, Berlin, Germany"
+    },
+    {
+      "date": "28/01/2019",
+      "name": "Sonic Pi meets Visor",
+      "location": "Worldwide. Streamed from Cambridge, United Kingdom",
+      "url": "https://tinyurl.com/visor-meets-sonicpi",
+      "url_label": "recording"
+    },
+    {
+      "date": "27/01/2019",
+      "name": "livecodenyc Hosts In Exile",
+      "location": "New River Studios, London, United Kingdom"
+    },
+    {
+      "date": "25/01/2019",
+      "name": "VIU Algorave",
+      "location": "Hangar.org, Barcelona, Spain"
+    },
+    {
+      "date": "16/01/2019",
+      "name": "ICLC 2019 Algorave",
+      "location": "Nave De Terneras, Madrid, Spain"
+    }
+  ],
+
+  "2018": [
+    {
+      "date": "01/12/2018",
+      "name": "Vertigo",
+      "location": "Valhalla, Wellington, New Zealand"
+    },
+    {
+      "date": "17/11/2018",
+      "name": "Burrowing Pufferfish Private Party",
+      "location": "Wellington, New Zealand",
+      "url": "https://tinyurl.com/visor-pufferfish-2018",
+      "url_label": "recording"
+    },
+    {
+      "date": "14/11/2018",
+      "name": "Computer Graphics meeting",
+      "location": "Victoria University, Wellington, New Zealand"
+    },
+    {
+      "date": "13/10/2018",
+      "name": "FREAKS 001",
+      "location": "Wellington, New Zealand",
+      "url": "https://tinyurl.com/visor-freaks-2018",
+      "url_label": "recording"
+    },
+    {
+      "date": "23/06/2018",
+      "name": "Art~Hack Winter Expo",
+      "location": "Newtown Community & Cultural Centre, Wellington, New Zealand"
+    }
+  ]
+}
