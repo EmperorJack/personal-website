@@ -9,6 +9,23 @@ const sections = {
     <p>
       Jack Purvis, Craig Anslow, and James Noble.
       {' '}
+      <strong>Visor in Practice: Live Performance and Evaluation.</strong>
+      {' '}
+      In Proceedings of the International Conference on Live Coding (ICLC), Limerick, Ireland, 2020
+      {' '}
+      (awaiting final version of paper)
+      {/* <Link url={''}>(paper)</Link> */}
+      {' '}
+      <Link url={'https://drive.google.com/open?id=1GlF175VTpV0aDxW7wZkxCA5_Wj1707OE'}>(poster)</Link>
+      {' '}
+      <Link url={'https://youtu.be/RtqWFEEZ6_s?t=1305'}>(presentation)</Link>
+    </p>
+
+    <br />
+
+    <p>
+      Jack Purvis, Craig Anslow, and James Noble.
+      {' '}
       <strong>CJing Practice: Combining Live Coding and VJing.</strong>
       {' '}
       In Proceedings of the International Conference on Live Coding (ICLC), Madrid, Spain, 2019
