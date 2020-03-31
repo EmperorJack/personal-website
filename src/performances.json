@@ -1,6 +1,13 @@
 {
   "2020": [
     {
+      "date": "19/03/2019",
+      "name": "EulerRoom Equinox 2020 Livestream",
+      "location": "Worldwide. Streamed from Wellington, New Zealand",
+      "url": ["https://tinyurl.com/visor-eulerroom-equinox-01", "https://tinyurl.com/visor-eulerroom-equinox-02"],
+      "url_label": ["recording - first set", "recording - second set"]
+    },
+    {
       "date": "07/02/2020",
       "name": "ICLC 2020 Algorave",
       "location": "Flannery's, Limerick City, Ireland",
@@ -114,7 +121,7 @@
       "name": "VIU Algorave",
       "location": "Hangar.org, Barcelona, Spain",
       "url": ["https://tinyurl.com/visor-viu-01-2019", "https://tinyurl.com/visor-viu-02-2019"],
-      "url_label": ["recording", "recording"]
+      "url_label": ["recording - first set", "recording - second set"]
     },
     {
       "date": "16/01/2019",
