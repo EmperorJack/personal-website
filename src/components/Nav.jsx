@@ -1,25 +1,28 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { capitalize } from 'helpers';
+import { Link, useLocation } from 'react-router-dom';
+import { capitalize, toRoute } from 'helpers';
+import { pages, defaultPage } from 'pages';
 
-const Nav = ({ currentPage, pages, setPage }) => (
-  <div className="nav">
-    {pages.map((page) => (
-      <div
-        key={page}
-        onClick={() => setPage(page)}
-        className={`nav__link ${currentPage === page ? 'nav__link--selected' : ''}`}
-      >
-        {capitalize(page)}
-      </div>
-    ))}
-  </div>
-);
+const Nav = () => {
+  const { pathname } = useLocation();
 
-Nav.propTypes = {
-  currentPage: PropTypes.string.isRequired,
-  pages: PropTypes.arrayOf(PropTypes.string),
-  setPage: PropTypes.func.isRequired,
+  const linkSelected = (page) => (
+    pathname === toRoute(page) || (pathname === '/' && page === defaultPage)
+  );
+
+  return (
+    <div className="nav">
+      {Object.keys(pages).map((page) => (
+        <Link
+          key={page}
+          to={toRoute(page)}
+          className={`nav__link ${linkSelected(page) ? 'nav__link--selected' : ''}`}
+        >
+          {capitalize(page)}
+        </Link>
+      ))}
+    </div>
+  );
 };
 
 export default Nav;

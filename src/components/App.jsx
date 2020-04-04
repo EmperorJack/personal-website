@@ -1,62 +1,59 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 import 'styles/app.scss';
+import { toRoute } from 'helpers';
+import { pages, DefaultPageComponent } from 'pages';
 import Header from './Header.jsx';
 import Nav from './Nav.jsx';
-import About from './pages/About.jsx';
-import Projects from './pages/Projects.jsx';
-import Performances from './pages/Performances.jsx';
-import Research from './pages/Research.jsx';
-import Media from './pages/Media.jsx';
-import Gallery from './pages/Gallery.jsx';
 import Footer from './Footer.jsx';
 
-const pages = {
-  about: About,
-  projects: Projects,
-  performances: Performances,
-  research: Research,
-  media: Media,
-  gallery: Gallery,
-};
+const App = () => (
+  <Router basename="/">
+    <Grid fluid>
+      <Row>
+        <Col xs={12}>
+          <Header />
+        </Col>
+      </Row>
 
-const App = () => {
-  const [page, setPage] = useState(Object.keys(pages)[0]);
+      <Row>
+        <Col xs={12} sm={3} md={2}>
+          <Nav />
+        </Col>
+        <Col xs={12} sm={9} md={8}>
+          <Switch>
+            <Route exact path='/'>
+              <DefaultPageComponent />
+            </Route>
 
-  const PageComponent = pages[page];
+            {Object.entries(pages).map(([page, PageComponent]) => (
+              <Route key={page} path={toRoute(page)}>
+                <PageComponent />
+              </Route>
+            ))}
 
-  return (
-    <div>
-      <Grid fluid>
-        <Row>
-          <Col xs={12}>
-            <Header />
-          </Col>
-        </Row>
+            <Route exact path='*'>
+              <Redirect to='/' />
+            </Route>
+          </Switch>
+        </Col>
 
-        <Row>
-          <Col xs={12} sm={3} md={2}>
-            <Nav
-              currentPage={page}
-              pages={Object.keys(pages)}
-              setPage={setPage}
-            />
-          </Col>
-          <Col xs={12} sm={9} md={8}>
-            <PageComponent />
-          </Col>
+        <Col xs={0} sm={0} md={2} />
+      </Row>
 
-          <Col xs={0} sm={0} md={2} />
-        </Row>
-
-        <Row>
-          <Col xs={12}>
-            <Footer />
-          </Col>
-        </Row>
-      </Grid>
-    </div>
-  );
-};
+      <Row>
+        <Col xs={12}>
+          <Footer />
+        </Col>
+      </Row>
+    </Grid>
+  </Router>
+);
 
 export default App;
