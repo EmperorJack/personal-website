@@ -13,8 +13,7 @@ const sections = {
       {' '}
       In Proceedings of the International Conference on Live Coding (ICLC), Limerick, Ireland, 2020
       {' '}
-      (awaiting final version of paper)
-      {/* <Link url={''}>(paper)</Link> */}
+      <Link url={'https://zenodo.org/record/3939275'}>(paper)</Link>
       {' '}
       <Link url={'https://drive.google.com/open?id=1GlF175VTpV0aDxW7wZkxCA5_Wj1707OE'}>(poster)</Link>
       {' '}
