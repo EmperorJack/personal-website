@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae99312154a03f7fe234fceb90a61673",
+    "revision": "0a16e5ea7472a2797ffcdd7270db4caa",
     "url": "/index.html"
   },
   {
-    "revision": "95f490186b600dbc1abd",
+    "revision": "9830c4e9d2c06998c7ce",
     "url": "/static/css/2.22d6b5ec.chunk.css"
   },
   {
-    "revision": "0a1c4efffe4bc8c77391",
-    "url": "/static/css/main.bceaa658.chunk.css"
+    "revision": "8381332f8df3f151e588",
+    "url": "/static/css/main.d78be7b7.chunk.css"
   },
   {
-    "revision": "95f490186b600dbc1abd",
-    "url": "/static/js/2.9de7a3af.chunk.js"
+    "revision": "9830c4e9d2c06998c7ce",
+    "url": "/static/js/2.66ce4754.chunk.js"
   },
   {
-    "revision": "0a1c4efffe4bc8c77391",
-    "url": "/static/js/main.095bc70d.chunk.js"
+    "revision": "8381332f8df3f151e588",
+    "url": "/static/js/main.4b3ba17a.chunk.js"
   },
   {
-    "revision": "f5c300d6359eb8c7b66d",
-    "url": "/static/js/runtime-main.f19f1c65.js"
+    "revision": "a237ac1661297542af3d",
+    "url": "/static/js/runtime-main.8da8bfa6.js"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -110,6 +110,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "49a023268d9f390346dc50a87b65c6a9",
     "url": "/static/media/screenshot_1582879441_49161.49a02326.png"
+  },
+  {
+    "revision": "5d217418070b6b6fc9fb6131c77704c4",
+    "url": "/static/media/screenshot_1587889223_332776.5d217418.png"
+  },
+  {
+    "revision": "4522222d35463870d468aa5c795127a3",
+    "url": "/static/media/screenshot_1587889223_547827.4522222d.png"
+  },
+  {
+    "revision": "92df29a63079c06dca05854a5738d37f",
+    "url": "/static/media/screenshot_1590658226_335644.92df29a6.png"
+  },
+  {
+    "revision": "c01b04413d31ec1730f5a11ab7e97b2a",
+    "url": "/static/media/screenshot_1596096278_182982.c01b0441.png"
+  },
+  {
+    "revision": "666c30d7a589a8576606127fb49ac9ef",
+    "url": "/static/media/screenshot_1596103260_188726.666c30d7.png"
+  },
+  {
+    "revision": "504c9f4655c7216ccebc0520e7b0de4d",
+    "url": "/static/media/screenshot_1601026903_329706.504c9f46.png"
+  },
+  {
+    "revision": "aa486841876f180af21239272080e206",
+    "url": "/static/media/screenshot_1601026903_83641.aa486841.png"
   },
   {
     "revision": "acd858377783b466d50d2b67bdf3ec8c",
