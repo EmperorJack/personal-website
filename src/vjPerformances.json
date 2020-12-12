@@ -1,6 +1,13 @@
 {
   "2020": [
     {
+      "date": "05/12/2020",
+      "name": "Camp Art~Hack 2020",
+      "location": "Near Cape Palliser, New Zealand",
+      "url": ["https://www.youtube.com/watch?v=kgCZNjg2dJk", "https://www.youtube.com/watch?v=NB3Ex5LuncU", "https://www.youtube.com/watch?v=v7-DZL0ppjo"],
+      "url_label": ["recording - first set", "recording - second set", "recording - third set"]
+    },
+    {
       "date": "17/07/2020",
       "name": "Limbic Resonance b2b2b2b2b",
       "location": "San Fran, Wellington, New Zealand"
