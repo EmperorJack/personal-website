@@ -14,7 +14,8 @@ const sections = {
           Visor is a live coding environment for real-time visual performance. Visor bridges the gap
           between creative coding and VJing by offering user interfaces to easily interact with live
           coded Processing sketches. Visor offers a simple API for mapping visuals to audio or MIDI
-          controllers, all in the expressive Ruby programming language."
+          controllers, all in the expressive Ruby programming language. Visor is implemented using
+          Electron, React, JRuby, and Processing."
         links={[
           { label: 'Visor Website', url: 'https://visor-live.github.io/' },
           { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=oqSGJKDKigs' },
@@ -45,7 +46,8 @@ const sections = {
         implemented on the GPU. Vorticity confinement and buoyancy forces are implemented to improve
         the smoke quality. Logarithmic frequency scaling and windowing are implemented to improve the
         quality of the audio analysis. Multiple music visualisations are implemented to illustrate the
-        kind of effects that are possible when integrating audio analysis and a smoke simulation."
+        kind of effects that are possible when integrating audio analysis and a smoke simulation.
+        This project is implemented using C++, OpenGL, and GLSL shaders."
       links={[
         { label: 'Github Website', url: 'https://github.com/EmperorJack/smokey-bbq' },
         { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=Tsm45GY3AT4' },

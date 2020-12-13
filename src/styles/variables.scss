@@ -5,3 +5,12 @@ $secondary-text-color: desaturate(darken($text-color, 35%), 25%);
 $title-color: lighten($text-color, 10%);
 $link-color: steelblue;
 $link-hover-color: lighten($link-color, 35%);
+
+$shadow-light: hsla(0, 0, 0, 0.1);
+$shadow-regular: hsla(0, 0, 0, 0.15);
+
+@mixin box-shadow {
+  box-shadow:
+    0 7px 5px $shadow-light,
+    0 3px 3px $shadow-regular;
+}
