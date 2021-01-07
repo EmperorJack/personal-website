@@ -1,4 +1,12 @@
 {
+  "2021": [
+    {
+      "date": "30/12/2020 - 03/01/2021",
+      "name": "Twisted Frequency Festival 2020/2021",
+      "location": "Upper Takaka, New Zealand"
+    }
+  ],
+
   "2020": [
     {
       "date": "05/12/2020",
@@ -100,16 +108,11 @@
       "url_label": "recording"
     },
     {
-      "date": "10/02/2019",
-      "name": "Taniwha's Den 2019 Cliff",
-      "location": "Hinakura, Martinborough, New Zealand"
-    },
-    {
-      "date": "09/02/2019",
-      "name": "Taniwha's Den 2019 Mainstage",
+      "date": "09/02/2019 - 10/02/2019",
+      "name": "Taniwha's Den 2019",
       "location": "Hinakura, Martinborough, New Zealand",
       "url": "https://tinyurl.com/visor-taniwhasden-2019",
-      "url_label": "recording"
+      "url_label": "recording - main stage set"
     },
     {
       "date": "01/02/2019",
