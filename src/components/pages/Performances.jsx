@@ -51,7 +51,7 @@ const PerformanceList = ({ performances }) => (
 );
 
 const sections = {
-  'VJing - VISOR': <PerformanceList performances={vjPerformances} />,
+  'Live coding & VJing - VISOR': <PerformanceList performances={vjPerformances} />,
   'DJing - DJACK (working title)': <PerformanceList performances={djPerformances} />,
 };
 
