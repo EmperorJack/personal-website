@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd82d2aef3ca457e20e8a15c6cdc2b41",
+    "revision": "6e5c4a770253bffc6c6bb099b7efdead",
     "url": "/index.html"
   },
   {
-    "revision": "987b40cb79df91459944",
+    "revision": "8639eeca50918e7d8775",
     "url": "/static/css/2.22d6b5ec.chunk.css"
   },
   {
-    "revision": "e6b0c1dd5b7121631bf2",
+    "revision": "89d409ef2393cbbce22c",
     "url": "/static/css/main.3aa1b4d5.chunk.css"
   },
   {
-    "revision": "987b40cb79df91459944",
-    "url": "/static/js/2.c8d3cbc3.chunk.js"
+    "revision": "8639eeca50918e7d8775",
+    "url": "/static/js/2.a74ad64f.chunk.js"
   },
   {
-    "revision": "e6b0c1dd5b7121631bf2",
-    "url": "/static/js/main.fe592925.chunk.js"
+    "revision": "89d409ef2393cbbce22c",
+    "url": "/static/js/main.72f27c92.chunk.js"
   },
   {
     "revision": "f5c300d6359eb8c7b66d",
@@ -132,10 +132,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/screenshot_1596103260_188726.666c30d7.png"
   },
   {
-    "revision": "504c9f4655c7216ccebc0520e7b0de4d",
-    "url": "/static/media/screenshot_1601026903_329706.504c9f46.png"
-  },
-  {
     "revision": "942c411fa4e5d782bcfafd67cb222f23",
     "url": "/static/media/screenshot_1608759355_266502.942c411f.png"
   },
@@ -150,6 +146,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43debb5badb2b137bc606ab077c687d4",
     "url": "/static/media/screenshot_1608889197_231835.43debb5b.png"
+  },
+  {
+    "revision": "faeab35595b04215fcdf96b1d46fdf4b",
+    "url": "/static/media/screenshot_1616214497_204419.faeab355.png"
+  },
+  {
+    "revision": "f08a82d671111aba433587c2ee167ead",
+    "url": "/static/media/screenshot_1616214497_346052.f08a82d6.png"
+  },
+  {
+    "revision": "1f2dcb15e31ae87cf76b180416c6cc0f",
+    "url": "/static/media/screenshot_1616663121_291343.1f2dcb15.png"
+  },
+  {
+    "revision": "01b6e445b32b89c918710a3149215f7c",
+    "url": "/static/media/screenshot_1616663121_330564.01b6e445.png"
+  },
+  {
+    "revision": "5e7474e727136fe54a8004c4a8f5de6a",
+    "url": "/static/media/screenshot_1616913947_147307.5e7474e7.png"
   },
   {
     "revision": "acd858377783b466d50d2b67bdf3ec8c",
