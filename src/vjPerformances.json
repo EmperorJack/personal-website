@@ -1,6 +1,11 @@
 {
   "2021": [
     {
+      "date": "04/06/2021",
+      "name": "Kind Of Green 2",
+      "location": "Space Academy, Christchurch, New Zealand"
+    },
+    {
       "date": "28/03/2021",
       "name": "Limbic Resonance presents Techno Fiesta",
       "location": "Cuba Dupa, Wellington, New Zealand",
@@ -34,8 +39,16 @@
       "date": "05/12/2020",
       "name": "Camp Art~Hack 2020",
       "location": "Near Cape Palliser, New Zealand",
-      "url": ["https://www.youtube.com/watch?v=kgCZNjg2dJk", "https://www.youtube.com/watch?v=NB3Ex5LuncU", "https://www.youtube.com/watch?v=v7-DZL0ppjo"],
-      "url_label": ["recording - first set", "recording - second set", "recording - third set"]
+      "url": [
+        "https://www.youtube.com/watch?v=kgCZNjg2dJk",
+        "https://www.youtube.com/watch?v=NB3Ex5LuncU",
+        "https://www.youtube.com/watch?v=v7-DZL0ppjo"
+      ],
+      "url_label": [
+        "recording - first set",
+        "recording - second set",
+        "recording - third set"
+      ]
     },
     {
       "date": "17/07/2020",
@@ -46,7 +59,10 @@
       "date": "19/03/2019",
       "name": "EulerRoom Equinox 2020 Livestream",
       "location": "Worldwide. Streamed from Wellington, New Zealand",
-      "url": ["https://tinyurl.com/visor-eulerroom-equinox-01", "https://tinyurl.com/visor-eulerroom-equinox-02"],
+      "url": [
+        "https://tinyurl.com/visor-eulerroom-equinox-01",
+        "https://tinyurl.com/visor-eulerroom-equinox-02"
+      ],
       "url_label": ["recording - first set", "recording - second set"]
     },
     {
@@ -157,7 +173,10 @@
       "date": "25/01/2019",
       "name": "VIU Algorave",
       "location": "Hangar.org, Barcelona, Spain",
-      "url": ["https://tinyurl.com/visor-viu-01-2019", "https://tinyurl.com/visor-viu-02-2019"],
+      "url": [
+        "https://tinyurl.com/visor-viu-01-2019",
+        "https://tinyurl.com/visor-viu-02-2019"
+      ],
       "url_label": ["recording - first set", "recording - second set"]
     },
     {
