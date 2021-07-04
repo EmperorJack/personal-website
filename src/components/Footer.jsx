@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div className="footer__copyright">
-    Copyright © 2020 Jack Purvis - All Rights Reserved
+    Copyright © {new Date().getFullYear()} Jack Purvis - All Rights Reserved
   </div>
 );
 
