@@ -12,13 +12,14 @@ const sections = {
     />
 
     <p>
-      Jack Purvis is a creative coder, software developer, and live visual artist based in
-      Wellington, New Zealand. Working as a software developer at Optimal Workshop, Jack
-      maintains a keen focus on the user experience of the products he develops. Jack studied
-      in both computer science (BSc) and computer graphics (MSc) at Victoria University of
-      Wellington. He maintains research interests in the fields of real-time computer graphics,
-      creative coding, live coding, and music visualisation. Jack is currently developing his own
-      software for live visual performance that combines aspects of live coding and VJing practice.
+      Jack Purvis is a full-stack software developer, creative coder, and live visual artist
+      based in Wellington, New Zealand. With a focus on front-end development, his interests
+      and expertise include real-time computer graphics, creative coding, live coding, user
+      experience, user interface design, and music visualisation. Jack studied in both computer
+      science (BSc) and computer graphics (MSc) at Victoria University of Wellington. Jack's
+      skills lie at the crossroads of programming, media design, and human-computer interaction,
+      allowing him to design & build meaningful software that enables others to work more
+      effectively and creatively.
     </p>
 
     <div className="about__contact">
