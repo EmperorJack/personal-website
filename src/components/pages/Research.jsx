@@ -29,7 +29,7 @@ const sections = {
       {' '}
       In Proceedings of the International Conference on Live Coding (ICLC), Madrid, Spain, 2019
       {' '}
-      <Link url={'https://iclc.livecodenetwork.org/2019/papers/paper64.pdf'}>(paper)</Link>
+      <Link url={'https://iclc.toplap.org/2019/papers/paper64.pdf'}>(paper)</Link>
       {' '}
       <Link url={'https://youtu.be/1kQwrnjToxw?t=3039'}>(presentation)</Link>
     </p>
