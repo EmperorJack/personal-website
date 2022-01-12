@@ -1,11 +1,24 @@
 {
   "2021": [
     {
+      "date": "18/12/2021",
+      "name": "El Mundo de Eduardo",
+      "location": "Wellington, New Zealand",
+      "url": "https://www.mixcloud.com/jack-purvis2/innerbound-eds-house-2021/",
+      "url_label": "audio recording"
+    },
+    {
       "date": "29/10/2021",
       "name": "Art~Hack Presents: Ghost Machines",
       "location": "Valhalla, Wellington, New Zealand",
-      "url": "https://tube.arthack.nz/videos/watch/e6247934-4aa6-4192-8d17-49d707d83080",
-      "url_label": "recording"
+      "url": [
+        "https://www.mixcloud.com/jack-purvis2/innerbound-arthack-presents-ghost-machines-valhalla/",
+        "https://tube.arthack.nz/videos/watch/e6247934-4aa6-4192-8d17-49d707d83080"
+      ],
+      "url_label": [
+        "audio recording",
+        "video recording"
+      ]
     }
   ],
 
@@ -14,8 +27,14 @@
       "date": "05/12/2020",
       "name": "Camp Art~Hack 2020",
       "location": "Near Cape Palliser, New Zealand",
-      "url": "https://www.youtube.com/watch?v=w6Zad4B5Sls",
-      "url_label": "recording"
+      "url": [
+        "https://www.mixcloud.com/jack-purvis2/djack-camp-arthack-2020/",
+        "https://www.youtube.com/watch?v=w6Zad4B5Sls"
+      ],
+      "url_label": [
+        "audio recording",
+        "video recording"
+      ]
     }
   ]
 }
