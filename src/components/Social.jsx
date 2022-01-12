@@ -6,6 +6,7 @@ const links = {
   'facebook-square': 'https://www.facebook.com/jackvpurvis',
   instagram: 'https://www.instagram.com/jackvpurvis',
   'youtube-play': 'https://www.youtube.com/user/EmperorrJack',
+  mixcloud: 'https://www.mixcloud.com/jack-purvis2/',
   twitter: 'https://twitter.com/jackvpurvis',
   'behance-square': 'https://www.behance.net/jackpurvis',
 };
