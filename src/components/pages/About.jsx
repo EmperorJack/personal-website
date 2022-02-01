@@ -12,14 +12,20 @@ const sections = {
     />
 
     <p>
-      Jack Purvis is a full-stack software developer, creative coder, and live visual artist
-      based in Wellington, New Zealand. With a focus on front-end development, his interests
-      and expertise include real-time computer graphics, creative coding, live coding, user
-      experience, user interface design, and music visualisation. Jack studied in both computer
-      science (BSc) and computer graphics (MSc) at Victoria University of Wellington. Jack's
-      skills lie at the crossroads of programming, media design, and human-computer interaction,
-      allowing him to design & build meaningful software that enables others to work more
-      effectively and creatively.
+      Jack is a full-stack software developer, creative coder, and live visual artist based
+      in Wellington, New Zealand. With a focus on front-end development, his interests and
+      expertise include real-time computer graphics, creative coding, live coding, user
+      interface design, user experience, music visualisation, and VJing.
+    </p>
+
+    <br />
+
+    <p>
+      Jack studied computer graphics (MSc) at Victoria University of Wellington, publishing
+      research in the 2019 and 2020 International Conferences on Live Coding. He is the author
+      of Visor, a tool for live visual performance that combines live coding and VJing practices.
+      Previously, he worked at Optimal Workshop building tools to help customers conduct user
+      research and improve the user experience of their products.
     </p>
 
     <div className="about__contact">
