@@ -11,7 +11,9 @@ const Project = ({
   <div className="project">
     <div className="title">{title}</div>
 
-    <p>{description}</p>
+    <div className="project__description">
+      <p>{description}</p>
+    </div>
 
     <div className="project__links">
       {links.map(({ label, url }) => (

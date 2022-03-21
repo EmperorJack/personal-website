@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Page from '../Page.jsx';
 import visorImagePath from '../../images/visor.png';
+import refineryUiImagePath from '../../images/refinery-ui.png';
 import maltopiDesignerImagePath from '../../images/maltopi-designer.png';
 import smokeSimulationImagePath from '../../images/smoke-simulation.jpg';
 import Project from '../Project';
@@ -24,6 +25,20 @@ const sections = {
       />
 
       <Project
+        title="Refinery UI"
+        description="
+          Industrial themed component library for developing modern user interfaces with TypeScript,
+          React, & Sass. Currently in development with plans to release as open source."
+        links={[
+          { label: 'Storybook Website', url: 'https://storybook.refinery-ui.com/' },
+        ]}
+        imagePath={refineryUiImagePath}
+      />
+    </Fragment>
+  ),
+  'Past Projects': (
+    <Fragment>
+      <Project
         title="Maltopi Designer"
         description="
           Maltopi Designer is a web-based clothing customiser for the sports team wear brand, Maltopi.
@@ -35,25 +50,24 @@ const sections = {
         ]}
         imagePath={maltopiDesignerImagePath}
       />
+
+      <Project
+        title="Smoke Simulation for Real-time Music Visualisation"
+        description="
+          This project investigates how the analysis of live audio can be used to drive a real-time
+          smoke simulation, producing a music visualisation. To maximize performance the simulation is
+          implemented on the GPU. Vorticity confinement and buoyancy forces are implemented to improve
+          the smoke quality. Logarithmic frequency scaling and windowing are implemented to improve the
+          quality of the audio analysis. Multiple music visualisations are implemented to illustrate the
+          kind of effects that are possible when integrating audio analysis and a smoke simulation.
+          This project is implemented using C++, OpenGL, and GLSL shaders."
+        links={[
+          { label: 'Github Website', url: 'https://github.com/EmperorJack/smokey-bbq' },
+          { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=Tsm45GY3AT4' },
+        ]}
+        imagePath={smokeSimulationImagePath}
+      />
     </Fragment>
-  ),
-  'Past Projects': (
-    <Project
-      title="Smoke Simulation for Real-time Music Visualisation"
-      description="
-        This project investigates how the analysis of live audio can be used to drive a real-time
-        smoke simulation, producing a music visualisation. To maximize performance the simulation is
-        implemented on the GPU. Vorticity confinement and buoyancy forces are implemented to improve
-        the smoke quality. Logarithmic frequency scaling and windowing are implemented to improve the
-        quality of the audio analysis. Multiple music visualisations are implemented to illustrate the
-        kind of effects that are possible when integrating audio analysis and a smoke simulation.
-        This project is implemented using C++, OpenGL, and GLSL shaders."
-      links={[
-        { label: 'Github Website', url: 'https://github.com/EmperorJack/smokey-bbq' },
-        { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=Tsm45GY3AT4' },
-      ]}
-      imagePath={smokeSimulationImagePath}
-    />
   ),
 };
 
