@@ -10,7 +10,7 @@ export const pages = {
   projects: Projects,
   performances: Performances,
   research: Research,
-  media: Media,
+  speaking: Media,
   gallery: Gallery,
 };
 

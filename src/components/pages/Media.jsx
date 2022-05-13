@@ -17,6 +17,14 @@ const sections = {
   'Talks': (<Fragment>
     <div className="list">
       <div className="list-item">
+        [12/05/2022] <strong>SWEN 303 Guest Lecture - Usability Testing Tools in Practice</strong>,
+        Victoria University, Wellington, New Zealand
+      </div>
+      <div className="list-item">
+        [27/11/2019] <strong>Visor: Creative Coding for Live Visual Performance</strong>,
+        Springload, Wellington, New Zealand
+      </div>
+      <div className="list-item">
         [01/11/2019] <strong>Visor: Creative Coding Live Visuals in Ruby</strong>,
         Kiwi Ruby 2019,
         Te Papa, Wellington, New Zealand
