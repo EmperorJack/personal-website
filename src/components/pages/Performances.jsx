@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Page from '../Page.jsx';
 import Link from '../shared/Link.jsx';
+import djvjPerformances from '../../djvjPerformances.json';
 import vjPerformances from '../../vjPerformances.json';
 import djPerformances from '../../djPerformances.json';
 
@@ -51,6 +52,7 @@ const PerformanceList = ({ performances }) => (
 );
 
 const sections = {
+  'DJing & VJing - INNERBOUND x VISOR': <PerformanceList performances={djvjPerformances} />,
   'Live coding & VJing - VISOR': <PerformanceList performances={vjPerformances} />,
   'DJing - INNERBOUND': <PerformanceList performances={djPerformances} />,
 };
