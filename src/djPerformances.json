@@ -3,7 +3,9 @@
     {
       "date": "19/03/2022",
       "name": "Play Time",
-      "location": "Wellington, New Zealand"
+      "location": "Wellington, New Zealand",
+      "url": "https://www.mixcloud.com/jack-purvis2/innerbound-play-time/",
+      "url_label": "audio recording"
     },
     {
       "date": "05/02/2022 - 07/02/2022",
@@ -38,10 +40,7 @@
         "https://www.mixcloud.com/jack-purvis2/innerbound-arthack-presents-ghost-machines-valhalla/",
         "https://tube.arthack.nz/videos/watch/e6247934-4aa6-4192-8d17-49d707d83080"
       ],
-      "url_label": [
-        "audio recording",
-        "video recording"
-      ]
+      "url_label": ["audio recording", "video recording"]
     }
   ],
 
@@ -54,10 +53,7 @@
         "https://www.mixcloud.com/jack-purvis2/djack-camp-arthack-2020/",
         "https://www.youtube.com/watch?v=w6Zad4B5Sls"
       ],
-      "url_label": [
-        "audio recording",
-        "video recording"
-      ]
+      "url_label": ["audio recording", "video recording"]
     }
   ]
 }

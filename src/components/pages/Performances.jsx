@@ -53,8 +53,8 @@ const PerformanceList = ({ performances }) => (
 
 const sections = {
   'DJing & VJing - INNERBOUND x VISOR': <PerformanceList performances={djvjPerformances} />,
-  'Live coding & VJing - VISOR': <PerformanceList performances={vjPerformances} />,
   'DJing - INNERBOUND': <PerformanceList performances={djPerformances} />,
+  'Live coding & VJing - VISOR': <PerformanceList performances={vjPerformances} />,
 };
 
 const Performances = () => (
