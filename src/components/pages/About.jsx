@@ -15,7 +15,7 @@ const sections = {
       Jack is a full-stack software developer, creative coder, and live visual artist based
       in Wellington, New Zealand. With a focus on front-end development, his interests and
       expertise include real-time computer graphics, creative coding, live coding, user
-      interface design, user experience, music visualisation, and VJing.
+      interface design, user experience, music visualisation, DJing, and VJing.
     </p>
 
     <br />
