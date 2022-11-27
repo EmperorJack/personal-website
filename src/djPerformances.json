@@ -8,12 +8,19 @@
     {
       "date": "29/09/2022",
       "name": "Art~Hack Presents: Spring Emergence",
-      "location": "Null, Wellington, New Zealand"
+      "location": "Null, Wellington, New Zealand",
+      "url": [
+        "https://www.mixcloud.com/jack-purvis2/innerbound-arthack-presents-spring-emergence/",
+        "https://tube.arthack.nz/videos/watch/6d0938b3-fac5-4da0-8054-63e99761a0b5"
+      ],
+      "url_label": ["audio recording", "video recording"]
     },
     {
       "date": "02/07/2022",
       "name": "30 Laps Around The Sun",
-      "location": "Wellington, New Zealand"
+      "location": "Wellington, New Zealand",
+      "url": "https://www.mixcloud.com/jack-purvis2/innerbound-30-laps-around-the-sun/",
+      "url_label": "audio recording"
     },
     {
       "date": "19/03/2022",
