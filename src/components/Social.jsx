@@ -6,7 +6,7 @@ const links = {
   'facebook-square': 'https://www.facebook.com/jackvpurvis',
   instagram: 'https://www.instagram.com/jackvpurvis',
   'youtube-play': 'https://www.youtube.com/user/EmperorrJack',
-  mixcloud: 'https://www.mixcloud.com/jack-purvis2/',
+  mixcloud: 'https://www.mixcloud.com/innerbound/',
   twitter: 'https://twitter.com/jackvpurvis',
   'behance-square': 'https://www.behance.net/jackpurvis',
 };
@@ -14,11 +14,7 @@ const links = {
 const Social = () => (
   <div className="social">
     {Object.entries(links).map(([service, url]) => (
-      <Link
-        key={service}
-        url={url}
-        customClassName="social__link"
-      >
+      <Link key={service} url={url} customClassName="social__link">
         <i className={`fa fa-${service} fa-sm`} />
       </Link>
     ))}
