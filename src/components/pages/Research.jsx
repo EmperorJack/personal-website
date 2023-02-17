@@ -7,11 +7,11 @@ import Link from '../shared/Link.jsx';
 const sections = {
   'Publications': (<div className="research">
     <p>
-      Jack Purvis, Craig Anslow, and James Noble.
+      Purvis, J. Anslow, C. Noble J.
       {' '}
       <strong>Visor in Practice: Live Performance and Evaluation.</strong>
       {' '}
-      In Proceedings of the International Conference on Live Coding (ICLC), Limerick, Ireland, 2020
+      In Proceedings of the International Conference on Live Coding (ICLC), Limerick, Ireland. 2020
       {' '}
       <Link url={'https://zenodo.org/record/3939275'}>(paper)</Link>
       {' '}
@@ -23,11 +23,11 @@ const sections = {
     <br />
 
     <p>
-      Jack Purvis, Craig Anslow, and James Noble.
+      Purvis, J. Anslow, C. Noble J.
       {' '}
       <strong>CJing Practice: Combining Live Coding and VJing.</strong>
       {' '}
-      In Proceedings of the International Conference on Live Coding (ICLC), Madrid, Spain, 2019
+      In Proceedings of the International Conference on Live Coding (ICLC), Madrid, Spain. 2019
       {' '}
       <Link url={'https://iclc.toplap.org/2019/papers/paper64.pdf'}>(paper)</Link>
       {' '}
