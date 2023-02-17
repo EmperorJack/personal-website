@@ -12,21 +12,52 @@ const sections = {
     />
 
     <p>
-      Jack is a full-stack software developer, creative coder, and live visual artist based
-      in Wellington, New Zealand. With a focus on front-end development, his interests and
-      expertise include real-time computer graphics, creative coding, live coding, user
-      interface design, user experience, music visualisation, DJing, and VJing.
+      I'm an industrious full-stack software developer, creative coder, and audiovisual
+      performance artist. I love designing and developing software that enables meaningful
+      experiences for people. With a focus on front-end development, I primarily make use
+      of web technologies for developing both web and desktop applications. I'm a firm
+      advocate of user-centered design and apply best practice UI and UX design principles
+      in my work. With a background in computer graphics and media design, my experience
+      also includes visualisation, simulation, and real-time applications.
     </p>
 
     <br />
 
     <p>
-      Jack studied computer graphics (MSc) at Victoria University of Wellington, publishing
-      research in the 2019 and 2020 International Conferences on Live Coding. He is the author
-      of Visor, a tool for live visual performance that combines live coding and VJing practices.
-      Previously, he worked at Optimal Workshop building tools to help customers conduct user
-      research and improve the user experience of their products.
+      More about me:
     </p>
+
+    <ul>
+      <li>
+        I am the author of Visor, a tool for live visual performance that combines live
+        coding and VJing practices.
+      </li>
+
+      <li>
+        I studied computer graphics (MSc) at Victoria University of Wellington, publishing
+        research in the 2019 and 2020 International Conferences on Live Coding.
+      </li>
+
+      <li>
+        I currently work at Village Kit, improving the website for their product Grid Kit -
+        a modular construction system for furniture and more.
+      </li>
+
+      <li>
+        I previously worked at Optimal Workshop, developing tools to
+        help customers conduct user research and improve the user experience of
+        their products.
+      </li>
+
+      <li>
+        I am a core member and host of the Wellington Art~Hack meetup.
+      </li>
+
+      <li>
+        Outside of daylight hours, I perform as a DJ and VJ under the artist names Innerbound
+        and VISOR respectively.
+      </li>
+    </ul>
 
     <div className="about__contact">
       <Link url="mailto:jack.v.purvis@gmail.com"><i className="fa fa-envelope fa-sm" />jack.v.purvis@gmail.com</Link>
