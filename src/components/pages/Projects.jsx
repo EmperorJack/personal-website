@@ -4,6 +4,7 @@ import visorImagePath from '../../images/visor.png';
 import refineryUiImagePath from '../../images/refinery-ui.png';
 import maltopiDesignerImagePath from '../../images/maltopi-designer.png';
 import smokeSimulationImagePath from '../../images/smoke-simulation.jpg';
+import unvanquishedImagePath from '../../images/unvanquished.jpg';
 import Project from '../Project';
 
 const sections = {
@@ -12,11 +13,10 @@ const sections = {
       <Project
         title="Visor"
         description="
-          Visor is a live coding environment for real-time visual performance. Visor bridges the gap
-          between creative coding and VJing by offering user interfaces to easily interact with live
-          coded Processing sketches. Visor offers a simple API for mapping visuals to audio or MIDI
-          controllers, all in the expressive Ruby programming language. Visor is implemented using
-          Electron, React, JRuby, and Processing."
+        Live coding environment for real-time visual performance that bridges the gap between
+        creative coding and VJing. Offers user interfaces to easily interact with Processing
+        sketches live coded in Ruby and a simple API for mapping visuals to audio or MIDI
+        controllers. Implemented using Electron, React, JRuby, and Processing."
         links={[
           { label: 'Visor Website', url: 'https://visor-live.github.io/' },
           { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=oqSGJKDKigs' },
@@ -27,8 +27,8 @@ const sections = {
       <Project
         title="Refinery UI"
         description="
-          Industrial themed component library for developing modern user interfaces with TypeScript,
-          React, & Sass. Currently in development with plans to release as open source."
+          Industrial themed component library for developing user interfaces with TypeScript,
+          React, & Sass. Currently in development with a plan to release as open source."
         links={[
           { label: 'Storybook Website', url: 'https://storybook.refinery-ui.com/' },
         ]}
@@ -41,10 +41,10 @@ const sections = {
       <Project
         title="Maltopi Designer"
         description="
-          Maltopi Designer is a web-based clothing customiser for the sports team wear brand, Maltopi.
-          Maltopi Designer allows users to design football kits with a variety of customisations including
-          colours, patterns, and logo images. Once a kit is created, a quote can be requested from Maltopi
-          to produce the custom kit. Maltopi Designer is implemented using p5.js, React, and Firebase."
+        Web-based clothing customiser for the sports team wear brand, Maltopi. Allows users
+        to design football kits with a variety of customisations including colours, patterns,
+        and logos. A quote can be requested from Maltopi to produce the custom kit.
+        Implemented with p5.js, React, and Firebase."
         links={[
           { label: 'Maltopi Designer Website', url: 'https://designer.maltopi.com/' },
         ]}
@@ -66,6 +66,17 @@ const sections = {
           { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=Tsm45GY3AT4' },
         ]}
         imagePath={smokeSimulationImagePath}
+      />
+
+      <Project
+        title="Unvanquished, Open Source Game Project"
+        description="
+        Level designer and environment artist for a real-time strategy game played as a first-person shooter.
+        Working with NetRadiant, Blender, Adobe Photoshop, and Audacity."
+        links={[
+          { label: 'Game Website', url: 'https://unvanquished.net/' },
+        ]}
+        imagePath={unvanquishedImagePath}
       />
     </Fragment>
   ),
