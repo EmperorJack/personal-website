@@ -29,7 +29,7 @@ const sections = {
         title="Refinery UI"
         description="
           Industrial themed component library for developing user interfaces with TypeScript,
-          React, & Sass. Currently in development with a plan to release as open source."
+          React, and Sass. Currently in development with a plan to release as open source."
         links={[
           { label: 'Storybook Website', url: 'https://storybook.refinery-ui.com/' },
         ]}
@@ -44,8 +44,8 @@ const sections = {
         together the art of VJing with live code and perform live visuals that flow smoothly and
         synchronously with music. My DJ practice involves using a custom Raspberry Pi setup to
         present a melodic, progressive, and driving sound that explores the inner world by journeying
-        through varieties of house & techno music. More recently, I have been experimenting with
-        integrating my DJ & VJ setups to create a unified audiovisual performance act."
+        through varieties of house and techno music. More recently, I have been experimenting with
+        integrating my DJ and VJ setups to create a unified audiovisual performance act."
         links={[
           { label: 'Innerbound Website', url: 'https://www.innerbound.nz/' },
           { label: 'Previous Performances', url: '/#/performances' },

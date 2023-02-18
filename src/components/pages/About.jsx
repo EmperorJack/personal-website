@@ -12,7 +12,7 @@ const sections = {
     />
 
     <p>
-      I'm an industrious full-stack software developer, creative coder, and audiovisual
+      I'm an industrious full-stack developer, creative coder, and audiovisual
       performance artist. I love designing and developing software that enables meaningful
       experiences for people. With a focus on front-end development, I primarily make use
       of web technologies for developing both web and desktop applications. I'm a firm
