@@ -7,7 +7,6 @@ import {
   Redirect,
 } from 'react-router-dom';
 import 'styles/app.scss';
-import { toRoute } from 'helpers';
 import { pages, DefaultPageComponent } from 'pages';
 import Header from './Header.jsx';
 import Nav from './Nav.jsx';
@@ -32,8 +31,8 @@ const App = () => (
               <DefaultPageComponent />
             </Route>
 
-            {Object.entries(pages).map(([page, PageComponent]) => (
-              <Route key={page} path={toRoute(page)}>
+            {pages.map(({ label, PageComponent, url }) => (
+              <Route key={label} path={url}>
                 <PageComponent />
               </Route>
             ))}

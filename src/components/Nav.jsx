@@ -1,26 +1,39 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { capitalize, toRoute } from 'helpers';
+import { Link as NavLink, useLocation } from 'react-router-dom';
 import { pages, defaultPage } from 'pages';
+import Link from './shared/Link.jsx';
 
 const Nav = () => {
   const { pathname } = useLocation();
 
   const linkSelected = (page) => (
-    pathname === toRoute(page) || (pathname === '/' && page === defaultPage)
+    pathname === page.url || (pathname === '/' && page === defaultPage)
   );
 
   return (
     <div className="nav">
-      {Object.keys(pages).map((page) => (
-        <Link
-          key={page}
-          to={toRoute(page)}
-          className={`nav__link ${linkSelected(page) ? 'nav__link--selected' : ''}`}
-        >
-          {capitalize(page)}
-        </Link>
-      ))}
+      {pages.map((page) => {
+        const { label, PageComponent, url } = page;
+
+        if (PageComponent == null) {
+          return (
+            <Link key={label} url={url} customClassName="nav__link">
+              {label}
+            </Link>
+          );
+        }
+
+        return (
+          <NavLink
+            key={label}
+            to={url}
+            className={`nav__link ${linkSelected(page) ? 'nav__link--selected' : ''}`}
+
+          >
+            {label}
+          </NavLink>
+        );
+      })}
     </div>
   );
 };
