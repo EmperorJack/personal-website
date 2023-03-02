@@ -2,43 +2,35 @@
   "name": "emperorjack.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jackvpurvis.com/",
+  "homepage": "https://www.jackvpurvis.com/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write '**/*.ts{,x}'"
+  },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "gh-pages": "^2.1.1",
-    "node-sass": "^4.12.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "lodash": "^4.17.21",
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-flexbox-grid": "^2.1.2",
-    "react-grid-gallery": "^0.5.5",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
-  },
-  "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "react-grid-gallery": "^0.5.5"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^18.0.1"
+    "@types/lodash": "^4.14.178",
+    "@types/node": "17.0.18",
+    "@types/react": "17.0.39",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-next": "^13.2.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.8",
+    "typescript": "4.5.5"
   }
 }

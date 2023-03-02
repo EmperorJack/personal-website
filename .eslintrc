@@ -1,14 +1,15 @@
 {
-  "parser": "babel-eslint",
-  "extends": [
-    "react-app",
-    "airbnb-base"
-  ],
-  "env": {
-    "browser": true,
-    "jest": true
-  },
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+  "plugins": ["simple-import-sort"],
   "rules": {
-    "import/no-unresolved": "off"
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+
+    "simple-import-sort/exports": "warn",
+    "simple-import-sort/imports": "warn"
   }
 }
