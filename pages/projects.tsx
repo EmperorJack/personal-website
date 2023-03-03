@@ -26,7 +26,7 @@ const sections = {
             href: 'https://www.youtube.com/watch?v=oqSGJKDKigs',
           },
         ]}
-        imagePath={visorImagePath}
+        imageProps={{ src: visorImagePath, alt: '', priority: true }}
       />
 
       <Project
@@ -40,7 +40,7 @@ const sections = {
             href: 'https://storybook.refinery-ui.com/',
           },
         ]}
-        imagePath={refineryUiImagePath}
+        imageProps={{ src: refineryUiImagePath, alt: '' }}
       />
 
       <Project
@@ -57,7 +57,7 @@ const sections = {
           { label: 'Innerbound Website', href: 'https://www.innerbound.nz/' },
           { label: 'Previous Performances', href: '/#/performances' },
         ]}
-        imagePath={performanceArtistImagePath}
+        imageProps={{ src: performanceArtistImagePath, alt: '' }}
       />
     </>
   ),
@@ -76,7 +76,7 @@ const sections = {
             href: 'https://designer.maltopi.com/',
           },
         ]}
-        imagePath={maltopiDesignerImagePath}
+        imageProps={{ src: maltopiDesignerImagePath, alt: '' }}
       />
 
       <Project
@@ -99,7 +99,7 @@ const sections = {
             href: 'https://www.youtube.com/watch?v=Tsm45GY3AT4',
           },
         ]}
-        imagePath={smokeSimulationImagePath}
+        imageProps={{ src: smokeSimulationImagePath, alt: '' }}
       />
 
       <Project
@@ -108,7 +108,7 @@ const sections = {
         Level designer and environment artist for a real-time strategy game played as a first-person shooter.
         Working with NetRadiant, Blender, Adobe Photoshop, and Audacity."
         links={[{ label: 'Game Website', href: 'https://unvanquished.net/' }]}
-        imagePath={unvanquishedImagePath}
+        imageProps={{ src: unvanquishedImagePath, alt: '' }}
       />
     </>
   ),

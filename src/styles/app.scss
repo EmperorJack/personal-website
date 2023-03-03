@@ -189,6 +189,16 @@
   }
 }
 
+.media {
+  &__gallery {
+    &-slide-image {
+      margin: 0 auto;
+      max-width: 1280px;
+      object-fit: contain;
+    }
+  }
+}
+
 .footer {
   position: absolute;
   height: 36px;

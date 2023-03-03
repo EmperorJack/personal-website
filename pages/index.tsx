@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
 
 import { Page } from '../src/components/Page';
@@ -9,7 +8,14 @@ import profile from '../src/images/profile.png';
 const sections = {
   '': (
     <>
-      <Image src={profile} alt="" className="about__profile-image" />
+      <Image
+        src={profile}
+        className="about__profile-image"
+        alt="Jack Purvis headshot"
+        sizes="250px"
+        quality={100}
+        priority
+      />
 
       <p>
         I'm an industrious full-stack developer, creative coder, and audiovisual

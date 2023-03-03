@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from 'next/image';
+import Image, { ImageProps } from 'next/image';
 
 import { Link } from './shared/Link';
 
@@ -9,11 +9,12 @@ interface ProjectProps {
     label: string;
     href: string;
   }>;
-  imagePath: StaticImageData;
+  imageProps: ImageProps;
 }
 
 export function Project(props: ProjectProps) {
-  const { title, description, links, imagePath } = props;
+  const { title, description, links, imageProps } = props;
+  const { alt: imageAlt } = imageProps;
 
   return (
     <div className="project">
@@ -31,7 +32,12 @@ export function Project(props: ProjectProps) {
         ))}
       </div>
 
-      <Image src={imagePath} alt="" className="project__image" />
+      <Image
+        {...imageProps}
+        alt={imageAlt}
+        className="project__image"
+        sizes="920px"
+      />
     </div>
   );
 }
