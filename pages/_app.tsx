@@ -16,41 +16,21 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Jack Purvis</title>
       </Head>
 
-      <Header />
+      <div className="layout">
+        <Header />
 
-      <Nav />
+        <div className="layout__main">
+          <div className="layout__left">
+            <Nav />
+          </div>
 
-      <Component {...pageProps} />
+          <Component {...pageProps} />
 
-      <Footer />
+          <div className="layout__right" />
+        </div>
+
+        <Footer />
+      </div>
     </>
   );
 }
-
-// TODO: replace react flexbox grid layout with css solution
-// const App = () => (
-//   <Grid fluid>
-//     <Row>
-//       <Col xs={12}>
-//         <Header />
-//       </Col>
-//     </Row>
-
-//     <Row>
-//       <Col xs={12} sm={3} md={2}>
-//         {/* <Nav /> */}
-//       </Col>
-//       <Col xs={12} sm={9} md={8}>
-//         <DefaultPageComponent />
-//       </Col>
-
-//       <Col xs={0} sm={0} md={2} />
-//     </Row>
-
-//     <Row>
-//       <Col xs={12}>
-//         <Footer />
-//       </Col>
-//     </Row>
-//   </Grid>
-// );
