@@ -1,16 +1,17 @@
-import React, { Fragment } from 'react';
-import Page from '../Page.jsx';
-import visorImagePath from '../../images/visor.png';
-import refineryUiImagePath from '../../images/refinery-ui.png';
-import maltopiDesignerImagePath from '../../images/maltopi-designer.png';
-import performanceArtistImagePath from '../../images/performance-artist.jpg';
-import smokeSimulationImagePath from '../../images/smoke-simulation.jpg';
-import unvanquishedImagePath from '../../images/unvanquished.jpg';
-import Project from '../Project';
+import { NextPage } from 'next';
+
+import { Page } from '../src/components/Page';
+import { Project } from '../src/components/Project';
+import maltopiDesignerImagePath from '../src/images/maltopi-designer.png';
+import performanceArtistImagePath from '../src/images/performance-artist.jpg';
+import refineryUiImagePath from '../src/images/refinery-ui.png';
+import smokeSimulationImagePath from '../src/images/smoke-simulation.jpg';
+import unvanquishedImagePath from '../src/images/unvanquished.jpg';
+import visorImagePath from '../src/images/visor.png';
 
 const sections = {
   'Current Projects': (
-    <Fragment>
+    <>
       <Project
         title="Visor"
         description="
@@ -19,8 +20,11 @@ const sections = {
         sketches live coded in Ruby and a simple API for mapping visuals to audio or MIDI
         controllers. Implemented using Electron, React, JRuby, and Processing."
         links={[
-          { label: 'Visor Website', url: 'https://visor-live.github.io/' },
-          { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=oqSGJKDKigs' },
+          { label: 'Visor Website', href: 'https://visor-live.github.io/' },
+          {
+            label: 'Demonstration Video',
+            href: 'https://www.youtube.com/watch?v=oqSGJKDKigs',
+          },
         ]}
         imagePath={visorImagePath}
       />
@@ -31,7 +35,10 @@ const sections = {
           Industrial themed component library for developing user interfaces with TypeScript,
           React, and Sass. Currently in development with a plan to release as open source."
         links={[
-          { label: 'Storybook Website', url: 'https://storybook.refinery-ui.com/' },
+          {
+            label: 'Storybook Website',
+            href: 'https://storybook.refinery-ui.com/',
+          },
         ]}
         imagePath={refineryUiImagePath}
       />
@@ -47,15 +54,15 @@ const sections = {
         through varieties of house and techno music. More recently, I have been experimenting with
         integrating my DJ and VJ setups to create a unified audiovisual performance act."
         links={[
-          { label: 'Innerbound Website', url: 'https://www.innerbound.nz/' },
-          { label: 'Previous Performances', url: '/#/performances' },
+          { label: 'Innerbound Website', href: 'https://www.innerbound.nz/' },
+          { label: 'Previous Performances', href: '/#/performances' },
         ]}
         imagePath={performanceArtistImagePath}
       />
-    </Fragment>
+    </>
   ),
   'Past Projects': (
-    <Fragment>
+    <>
       <Project
         title="Maltopi Designer"
         description="
@@ -64,7 +71,10 @@ const sections = {
         and logos. A quote can be requested from Maltopi to produce the custom kit.
         Implemented with p5.js, React, and Firebase."
         links={[
-          { label: 'Maltopi Designer Website', url: 'https://designer.maltopi.com/' },
+          {
+            label: 'Maltopi Designer Website',
+            href: 'https://designer.maltopi.com/',
+          },
         ]}
         imagePath={maltopiDesignerImagePath}
       />
@@ -80,8 +90,14 @@ const sections = {
           kind of effects that are possible when integrating audio analysis and a smoke simulation.
           This project is implemented using C++, OpenGL, and GLSL shaders."
         links={[
-          { label: 'Github Website', url: 'https://github.com/EmperorJack/smokey-bbq' },
-          { label: 'Demonstration Video', url: 'https://www.youtube.com/watch?v=Tsm45GY3AT4' },
+          {
+            label: 'Github Website',
+            href: 'https://github.com/EmperorJack/smokey-bbq',
+          },
+          {
+            label: 'Demonstration Video',
+            href: 'https://www.youtube.com/watch?v=Tsm45GY3AT4',
+          },
         ]}
         imagePath={smokeSimulationImagePath}
       />
@@ -91,17 +107,15 @@ const sections = {
         description="
         Level designer and environment artist for a real-time strategy game played as a first-person shooter.
         Working with NetRadiant, Blender, Adobe Photoshop, and Audacity."
-        links={[
-          { label: 'Game Website', url: 'https://unvanquished.net/' },
-        ]}
+        links={[{ label: 'Game Website', href: 'https://unvanquished.net/' }]}
         imagePath={unvanquishedImagePath}
       />
-    </Fragment>
+    </>
   ),
 };
 
-const Projects = () => (
-  <Page sections={sections} />
-);
+const Projects: NextPage = () => {
+  return <Page sections={sections} />;
+};
 
 export default Projects;
