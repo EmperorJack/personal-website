@@ -3,7 +3,8 @@ import { PerformancesByYear } from './types';
 export const djvjPerformances: PerformancesByYear = {
   '2022': [
     {
-      date: '28/05/2022',
+      _type: 'innerbound-performance',
+      date: { start: '28/05/2022' },
       name: 'Beyond the Beat presents: Intention of Creation',
       location: 'Christchurch, New Zealand',
       links: [
@@ -16,6 +17,10 @@ export const djvjPerformances: PerformancesByYear = {
           href: 'https://www.mixcloud.com/innerbound/innerbound-x-visor-intention-of-creation/',
         },
       ],
+      googleDriveId: '1UhA02UecVsUiCn1Ag9xf4YxguJ4H_gEt',
+      shortName: 'Intention of Creation',
+      tags: ['melodic', 'progressive', 'driving'],
+      thumbnailSrc: 'innerbound_intention_of_creation_set.jpg',
     },
   ],
 };

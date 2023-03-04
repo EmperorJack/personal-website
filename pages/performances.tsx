@@ -45,12 +45,17 @@ function PerformanceList(props: PerformanceListProps) {
             <div className="title">{year}</div>
 
             {performances[year].map((performance) => {
-              const { date, name, location, links } = performance;
+              const { date, name, location, links, hidden } = performance;
+
+              if (hidden) {
+                return null;
+              }
 
               return (
                 <div className="list-item" key={name}>
-                  [{date}] <strong>{name}</strong>, {location}{' '}
-                  {links != null && <LinksList links={links} />}
+                  [{date.start}
+                  {date.end ? ` - ${date.end}` : ''}] <strong>{name}</strong>,{' '}
+                  {location} {links != null && <LinksList links={links} />}
                 </div>
               );
             })}
