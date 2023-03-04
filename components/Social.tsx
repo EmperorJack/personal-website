@@ -14,8 +14,8 @@ const links = {
 export function Social() {
   return (
     <div className="social">
-      {Object.entries(links).map(([service, url]) => (
-        <Link key={service} href={url} className="social__link">
+      {Object.entries(links).map(([service, href]) => (
+        <Link key={service} href={href} className="social__link">
           <i className={`fa fa-${service} fa-sm`} />
         </Link>
       ))}

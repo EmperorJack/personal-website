@@ -42,8 +42,12 @@ export const vjPerformances: PerformancesByYear = {
       date: '24/07/2021',
       name: 'Pyjama Party',
       location: 'Wellington, New Zealand',
-      url: 'https://www.youtube.com/watch?v=7mNwWFt0yTE',
-      url_label: 'recording',
+      links: [
+        {
+          label: 'recording',
+          href: 'https://www.youtube.com/watch?v=7mNwWFt0yTE',
+        },
+      ],
     },
     {
       date: '04/06/2021',
@@ -54,8 +58,12 @@ export const vjPerformances: PerformancesByYear = {
       date: '28/03/2021',
       name: 'Limbic Resonance presents Techno Fiesta',
       location: 'Cuba Dupa, Wellington, New Zealand',
-      url: 'https://www.youtube.com/watch?v=o6twSb6u94E',
-      url_label: 'recording',
+      links: [
+        {
+          label: 'recording',
+          href: 'https://www.youtube.com/watch?v=o6twSb6u94E',
+        },
+      ],
     },
     {
       date: '13/03/2021',
@@ -84,15 +92,19 @@ export const vjPerformances: PerformancesByYear = {
       date: '05/12/2020',
       name: 'Camp Art~Hack 2020',
       location: 'Near Cape Palliser, New Zealand',
-      url: [
-        'https://www.youtube.com/watch?v=kgCZNjg2dJk',
-        'https://www.youtube.com/watch?v=NB3Ex5LuncU',
-        'https://www.youtube.com/watch?v=v7-DZL0ppjo',
-      ],
-      url_label: [
-        'recording - first set',
-        'recording - second set',
-        'recording - third set',
+      links: [
+        {
+          label: 'recording - first set',
+          href: 'https://www.youtube.com/watch?v=kgCZNjg2dJk',
+        },
+        {
+          label: 'recording - second set',
+          href: 'https://www.youtube.com/watch?v=NB3Ex5LuncU',
+        },
+        {
+          label: 'recording - third set',
+          href: 'https://www.youtube.com/watch?v=v7-DZL0ppjo',
+        },
       ],
     },
     {
@@ -104,25 +116,32 @@ export const vjPerformances: PerformancesByYear = {
       date: '19/03/2019',
       name: 'EulerRoom Equinox 2020 Livestream',
       location: 'Worldwide. Streamed from Wellington, New Zealand',
-      url: [
-        'https://tinyurl.com/visor-eulerroom-equinox-01',
-        'https://tinyurl.com/visor-eulerroom-equinox-02',
+      links: [
+        {
+          label: 'recording - first set',
+          href: 'https://tinyurl.com/visor-eulerroom-equinox-01',
+        },
+        {
+          label: 'recording - second set',
+          href: 'https://tinyurl.com/visor-eulerroom-equinox-02',
+        },
       ],
-      url_label: ['recording - first set', 'recording - second set'],
     },
     {
       date: '07/02/2020',
       name: 'ICLC 2020 Algorave',
       location: "Flannery's, Limerick City, Ireland",
-      url: 'https://tinyurl.com/visor-iclc-2020',
-      url_label: 'recording',
+      links: [
+        { label: 'recording', href: 'https://tinyurl.com/visor-iclc-2020' },
+      ],
     },
     {
       date: '01/01/2020',
       name: 'Twisted Frequency Renegade 2020',
       location: 'Upper Takaka, New Zealand',
-      url: 'https://tinyurl.com/visor-renegade-01',
-      url_label: 'recording',
+      links: [
+        { label: 'recording', href: 'https://tinyurl.com/visor-renegade-01' },
+      ],
     },
   ],
 
@@ -151,8 +170,12 @@ export const vjPerformances: PerformancesByYear = {
       date: '07/09/2019',
       name: 'Limbic Resonance 2',
       location: 'Valhalla, Wellington, New Zealand',
-      url: 'https://tinyurl.com/visor-limbic-resonance-02',
-      url_label: 'recording',
+      links: [
+        {
+          label: 'recording',
+          href: 'https://tinyurl.com/visor-limbic-resonance-02',
+        },
+      ],
     },
     {
       date: '24/08/2019',
@@ -168,8 +191,12 @@ export const vjPerformances: PerformancesByYear = {
       date: '13/07/2019',
       name: 'Limbic Resonance',
       location: 'Valhalla, Wellington, New Zealand',
-      url: 'https://tinyurl.com/visor-limbic-resonance-01',
-      url_label: 'recording',
+      links: [
+        {
+          label: 'recording',
+          href: 'https://tinyurl.com/visor-limbic-resonance-01',
+        },
+      ],
     },
     {
       date: '07/06/2019',
@@ -180,22 +207,28 @@ export const vjPerformances: PerformancesByYear = {
       date: '06/03/2019',
       name: 'Eyegum Wednesdays',
       location: 'San Fran, Wellington, New Zealand',
-      url: 'https://tinyurl.com/visor-eyegum-2019',
-      url_label: 'recording',
+      links: [
+        { label: 'recording', href: 'https://tinyurl.com/visor-eyegum-2019' },
+      ],
     },
     {
       date: '17/02/2019',
       name: 'TOPLAP 15th Birthday Livestream',
       location: 'Worldwide. Streamed from Wellington, New Zealand',
-      url: 'https://tinyurl.com/visor-toplap15',
-      url_label: 'recording',
+      links: [
+        { label: 'recording', href: 'https://tinyurl.com/visor-toplap15' },
+      ],
     },
     {
       date: '09/02/2019 - 10/02/2019',
       name: "Taniwha's Den 2019",
       location: 'Hinakura, Martinborough, New Zealand',
-      url: 'https://tinyurl.com/visor-taniwhasden-2019',
-      url_label: 'recording - main stage set',
+      links: [
+        {
+          label: 'recording - main stage set',
+          href: 'https://tinyurl.com/visor-taniwhasden-2019',
+        },
+      ],
     },
     {
       date: '01/02/2019',
@@ -206,8 +239,9 @@ export const vjPerformances: PerformancesByYear = {
       date: '28/01/2019',
       name: 'Sonic Pi meets Visor',
       location: 'Worldwide. Streamed from Cambridge, United Kingdom',
-      url: 'https://tinyurl.com/visor-meets-sonicpi',
-      url_label: 'recording',
+      links: [
+        { label: 'recording', href: 'https://tinyurl.com/visor-meets-sonicpi' },
+      ],
     },
     {
       date: '27/01/2019',
@@ -218,11 +252,16 @@ export const vjPerformances: PerformancesByYear = {
       date: '25/01/2019',
       name: 'VIU Algorave',
       location: 'Hangar.org, Barcelona, Spain',
-      url: [
-        'https://tinyurl.com/visor-viu-01-2019',
-        'https://tinyurl.com/visor-viu-02-2019',
+      links: [
+        {
+          label: 'recording - first set',
+          href: 'https://tinyurl.com/visor-viu-01-2019',
+        },
+        {
+          label: 'recording - second set',
+          href: 'https://tinyurl.com/visor-viu-02-2019',
+        },
       ],
-      url_label: ['recording - first set', 'recording - second set'],
     },
     {
       date: '16/01/2019',
@@ -241,8 +280,12 @@ export const vjPerformances: PerformancesByYear = {
       date: '17/11/2018',
       name: 'Burrowing Pufferfish Private Party',
       location: 'Wellington, New Zealand',
-      url: 'https://tinyurl.com/visor-pufferfish-2018',
-      url_label: 'recording',
+      links: [
+        {
+          label: 'recording',
+          href: 'https://tinyurl.com/visor-pufferfish-2018',
+        },
+      ],
     },
     {
       date: '14/11/2018',
@@ -253,8 +296,9 @@ export const vjPerformances: PerformancesByYear = {
       date: '13/10/2018',
       name: 'FREAKS 001',
       location: 'Wellington, New Zealand',
-      url: 'https://tinyurl.com/visor-freaks-2018',
-      url_label: 'recording',
+      links: [
+        { label: 'recording', href: 'https://tinyurl.com/visor-freaks-2018' },
+      ],
     },
     {
       date: '23/06/2018',

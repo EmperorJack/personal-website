@@ -8,19 +8,21 @@ import { djvjPerformances } from '@/src/performances/djvjPerformances';
 import { PerformancesByYear } from '@/src/performances/types';
 import { vjPerformances } from '@/src/performances/vjPerformances';
 
-interface UrlListProps {
-  urls: Array<string>;
-  urlLabels: Array<string>;
+interface LinksListProps {
+  links: Array<{
+    label: string;
+    href: string;
+  }>;
 }
 
-function UrlList(props: UrlListProps) {
-  const { urls, urlLabels } = props;
+function LinksList(props: LinksListProps) {
+  const { links } = props;
 
   return (
     <>
-      {urls.map((url, i) => (
-        <Fragment key={url}>
-          <Link href={url}>({urlLabels[i]})</Link>{' '}
+      {links.map(({ label, href }) => (
+        <Fragment key={href}>
+          <Link href={href}>({label})</Link>{' '}
         </Fragment>
       ))}
     </>
@@ -43,23 +45,12 @@ function PerformanceList(props: PerformanceListProps) {
             <div className="title">{year}</div>
 
             {performances[year].map((performance) => {
-              const {
-                date,
-                name,
-                location,
-                url,
-                url_label: urlLabel,
-              } = performance;
+              const { date, name, location, links } = performance;
 
               return (
                 <div className="list-item" key={name}>
                   [{date}] <strong>{name}</strong>, {location}{' '}
-                  {url != null && urlLabel != null && (
-                    <UrlList
-                      urls={Array.of(url).flat()}
-                      urlLabels={Array.of(urlLabel).flat()}
-                    />
-                  )}
+                  {links != null && <LinksList links={links} />}
                 </div>
               );
             })}

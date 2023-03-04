@@ -6,8 +6,12 @@ export const djPerformances: PerformancesByYear = {
       date: '30/12/2022 - 03/01/2023',
       name: 'Twisted Frequency Festival 2022/2023',
       location: 'Upper Takaka, New Zealand',
-      url: 'https://www.mixcloud.com/innerbound/innerbound-twisted-frequency-festival-2022-2023/',
-      url_label: 'audio recording',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-twisted-frequency-festival-2022-2023/',
+        },
+      ],
     },
   ],
 
@@ -21,25 +25,38 @@ export const djPerformances: PerformancesByYear = {
       date: '29/09/2022',
       name: 'Art~Hack Presents: Spring Emergence',
       location: 'Null, Wellington, New Zealand',
-      url: [
-        'https://www.mixcloud.com/innerbound/innerbound-arthack-presents-spring-emergence/',
-        'https://tube.arthack.nz/videos/watch/6d0938b3-fac5-4da0-8054-63e99761a0b5',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-arthack-presents-spring-emergence/',
+        },
+        {
+          label: 'video recording',
+          href: 'https://tube.arthack.nz/videos/watch/6d0938b3-fac5-4da0-8054-63e99761a0b5',
+        },
       ],
-      url_label: ['audio recording', 'video recording'],
     },
     {
       date: '02/07/2022',
       name: '30 Laps Around The Sun',
       location: 'Wellington, New Zealand',
-      url: 'https://www.mixcloud.com/innerbound/innerbound-30-laps-around-the-sun/',
-      url_label: 'audio recording',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-30-laps-around-the-sun/',
+        },
+      ],
     },
     {
       date: '19/03/2022',
       name: 'Play Time',
       location: 'Wellington, New Zealand',
-      url: 'https://www.mixcloud.com/innerbound/innerbound-play-time/',
-      url_label: 'audio recording',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-play-time/',
+        },
+      ],
     },
     {
       date: '05/02/2022 - 07/02/2022',
@@ -58,8 +75,12 @@ export const djPerformances: PerformancesByYear = {
       date: '18/12/2021',
       name: 'El Mundo de Eduardo',
       location: 'Wellington, New Zealand',
-      url: 'https://www.mixcloud.com/innerbound/innerbound-eds-house-2021/',
-      url_label: 'audio recording',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-eds-house-2021/',
+        },
+      ],
     },
     {
       date: '16/12/2021',
@@ -70,11 +91,16 @@ export const djPerformances: PerformancesByYear = {
       date: '29/10/2021',
       name: 'Art~Hack Presents: Ghost Machines',
       location: 'Valhalla, Wellington, New Zealand',
-      url: [
-        'https://www.mixcloud.com/innerbound/innerbound-arthack-presents-ghost-machines-valhalla/',
-        'https://tube.arthack.nz/videos/watch/e6247934-4aa6-4192-8d17-49d707d83080',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-arthack-presents-ghost-machines-valhalla/',
+        },
+        {
+          label: 'video recording',
+          href: 'https://tube.arthack.nz/videos/watch/e6247934-4aa6-4192-8d17-49d707d83080',
+        },
       ],
-      url_label: ['audio recording', 'video recording'],
     },
   ],
 
@@ -83,11 +109,16 @@ export const djPerformances: PerformancesByYear = {
       date: '05/12/2020',
       name: 'Camp Art~Hack 2020',
       location: 'Near Cape Palliser, New Zealand',
-      url: [
-        'https://www.mixcloud.com/innerbound/djack-camp-arthack-2020/',
-        'https://www.youtube.com/watch?v=w6Zad4B5Sls',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/djack-camp-arthack-2020/',
+        },
+        {
+          label: 'video recording',
+          href: 'https://www.youtube.com/watch?v=w6Zad4B5Sls',
+        },
       ],
-      url_label: ['audio recording', 'video recording'],
     },
   ],
 };
