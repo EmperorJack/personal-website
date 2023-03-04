@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
 
-import { Page } from '@/components/Page';
 import { Link } from '@/components/Link';
+import { Page } from '@/components/Page';
 import profile from '@/images/profile.png';
 
 const sections = {
