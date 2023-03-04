@@ -1,4 +1,4 @@
-import { Link } from './shared/Link';
+import { Link } from './Link';
 
 const links = {
   github: 'https://github.com/EmperorJack',

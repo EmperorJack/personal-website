@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 
-import { Page } from '../src/components/Page';
-import { Link } from '../src/components/shared/Link';
+import { Page } from '@/src/components/Page';
+import { Link } from '@/src/components/Link';
 
 const sections = {
   Publications: (

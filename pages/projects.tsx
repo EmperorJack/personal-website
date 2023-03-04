@@ -1,13 +1,13 @@
 import { NextPage } from 'next';
 
-import { Page } from '../src/components/Page';
-import { Project } from '../src/components/Project';
-import maltopiDesignerImagePath from '../src/images/maltopi-designer.png';
-import performanceArtistImagePath from '../src/images/performance-artist.jpg';
-import refineryUiImagePath from '../src/images/refinery-ui.png';
-import smokeSimulationImagePath from '../src/images/smoke-simulation.jpg';
-import unvanquishedImagePath from '../src/images/unvanquished.jpg';
-import visorImagePath from '../src/images/visor.png';
+import { Page } from '@/src/components/Page';
+import { Project } from '@/src/components/Project';
+import maltopiDesignerImagePath from '@/src/images/maltopi-designer.png';
+import performanceArtistImagePath from '@/src/images/performance-artist.jpg';
+import refineryUiImagePath from '@/src/images/refinery-ui.png';
+import smokeSimulationImagePath from '@/src/images/smoke-simulation.jpg';
+import unvanquishedImagePath from '@/src/images/unvanquished.jpg';
+import visorImagePath from '@/src/images/visor.png';
 
 const sections = {
   'Current Projects': (

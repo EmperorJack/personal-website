@@ -1,6 +1,6 @@
 import Image, { ImageProps } from 'next/image';
 
-import { Link } from './shared/Link';
+import { Link } from './Link';
 
 interface ProjectProps {
   title: string;

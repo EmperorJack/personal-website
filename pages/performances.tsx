@@ -1,12 +1,12 @@
 import { NextPage } from 'next';
 import { Fragment } from 'react';
 
-import { Page } from '../src/components/Page';
-import { Link } from '../src/components/shared/Link';
-import { djPerformances } from '../src/performances/djPerformances';
-import { djvjPerformances } from '../src/performances/djvjPerformances';
-import { PerformancesByYear } from '../src/performances/types';
-import { vjPerformances } from '../src/performances/vjPerformances';
+import { Page } from '@/src/components/Page';
+import { Link } from '@/src/components/Link';
+import { djPerformances } from '@/src/performances/djPerformances';
+import { djvjPerformances } from '@/src/performances/djvjPerformances';
+import { PerformancesByYear } from '@/src/performances/types';
+import { vjPerformances } from '@/src/performances/vjPerformances';
 
 interface UrlListProps {
   urls: Array<string>;
