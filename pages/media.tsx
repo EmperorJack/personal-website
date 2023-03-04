@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 
-import { Page } from '@/src/components/Page';
-import { Link } from '@/src/components/Link';
+import { Page } from '@/components/Page';
+import { Link } from '@/components/Link';
 
 const sections = {
   Interviews: (

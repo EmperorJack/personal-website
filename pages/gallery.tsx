@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 
-import { ImageGallery } from '@/src/components/ImageGallery';
-import { Page } from '@/src/components/Page';
+import { ImageGallery } from '@/components/ImageGallery';
+import { Page } from '@/components/Page';
 
 const sections = {
   Visor: <ImageGallery />,

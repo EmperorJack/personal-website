@@ -1,12 +1,12 @@
-import '@/src/styles/index.scss';
-import '@/src/styles/app.scss';
+import '@/styles/index.scss';
+import '@/styles/app.scss';
 
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
-import { Footer } from '@/src/components/Footer';
-import { Header } from '@/src/components/Header';
-import { Nav } from '@/src/components/Nav';
+import { Footer } from '@/components/Footer';
+import { Header } from '@/components/Header';
+import { Nav } from '@/components/Nav';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (

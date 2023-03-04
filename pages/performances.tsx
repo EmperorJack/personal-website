@@ -1,8 +1,8 @@
 import { NextPage } from 'next';
 import { Fragment } from 'react';
 
-import { Page } from '@/src/components/Page';
-import { Link } from '@/src/components/Link';
+import { Link } from '@/components/Link';
+import { Page } from '@/components/Page';
 import { djPerformances } from '@/src/performances/djPerformances';
 import { djvjPerformances } from '@/src/performances/djvjPerformances';
 import { PerformancesByYear } from '@/src/performances/types';
