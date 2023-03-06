@@ -55,7 +55,7 @@ const sections = {
         integrating my DJ and VJ setups to create a unified audiovisual performance act."
         links={[
           { label: 'Innerbound Website', href: 'https://www.innerbound.nz/' },
-          { label: 'Previous Performances', href: '/#/performances' },
+          { label: 'Previous Performances', href: '/performances' },
         ]}
         imageProps={{ src: performanceArtistImagePath, alt: '' }}
       />
