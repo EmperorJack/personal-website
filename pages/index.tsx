@@ -45,7 +45,13 @@ const sections = {
         </li>
 
         <li>
-          I currently work at Village Kit, improving the website for their
+          I currently work at OpenStar Technologies, developing internal tools
+          and control systems with a focus on the UX/UI design of both graphical
+          user interfaces and human-machine interfaces.
+        </li>
+
+        <li>
+          I previously worked at Village Kit, improving the website for their
           product Grid Kit - a modular construction system for furniture and
           more.
         </li>
