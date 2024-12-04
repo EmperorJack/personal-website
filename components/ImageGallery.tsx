@@ -1,5 +1,6 @@
 import 'yet-another-react-lightbox/styles.css';
 
+import { uniq } from 'lodash';
 import Image, { StaticImageData } from 'next/image';
 import { useState } from 'react';
 import {
@@ -7,7 +8,10 @@ import {
   Image as GalleryItem,
   ThumbnailImageProps,
 } from 'react-grid-gallery';
-import Lightbox, { Slide, SlideImage } from 'yet-another-react-lightbox';
+import Lightbox, {
+  Slide,
+  SlideImage as SlideImageType,
+} from 'yet-another-react-lightbox';
 
 function importAll<T>(r: __WebpackModuleApi.RequireContext): Array<T> {
   return r.keys().map(r) as Array<T>;
@@ -17,13 +21,15 @@ const staticImages = importAll<{ default: StaticImageData }>(
   require.context('../images/gallery', false, /\.(png)$/),
 );
 
-const images: Array<GalleryItem> = staticImages.reverse().map((filename) => ({
-  src: filename.default.src,
-  width: 320,
-  height: 180,
-}));
+const images: Array<GalleryItem> = uniq(staticImages)
+  .reverse()
+  .map((filename) => ({
+    src: filename.default.src,
+    width: 320,
+    height: 180,
+  }));
 
-const slides: Array<SlideImage> = images.map(({ src }) => ({
+const slides: Array<SlideImageType> = images.map(({ src }) => ({
   src,
 }));
 
