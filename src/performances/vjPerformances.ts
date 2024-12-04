@@ -1,6 +1,21 @@
 import { PerformancesByYear } from './types';
 
 export const vjPerformances: PerformancesByYear = {
+  '2024': [
+    {
+      _type: 'performance',
+      date: { start: '10/08/2024' },
+      name: 'Confessions 2: Heretics',
+      location: 'Wellington, New Zealand',
+    },
+    {
+      _type: 'performance',
+      date: { start: '04/02/2024', end: '06/02/2024' },
+      name: "Taniwha's Den 2024",
+      location: 'Hinakura, Martinborough, New Zealand',
+    },
+  ],
+
   '2023': [
     {
       _type: 'performance',

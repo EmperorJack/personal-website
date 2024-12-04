@@ -1,6 +1,31 @@
 import { PerformancesByYear } from './types';
 
 export const djPerformances: PerformancesByYear = {
+  '2024': [
+    {
+      _type: 'innerbound-performance',
+      date: { start: '25/10/2024', end: '28/10/2024' },
+      name: 'Red Den Two',
+      location: 'Waverley, New Zealand',
+      links: [
+        {
+          label: 'audio recording',
+          href: 'https://www.mixcloud.com/innerbound/innerbound-red-den-two/',
+        },
+      ],
+      googleDriveId: '19y0HkjRyvC3ViBcqW4kYulOcRnfJgjyQ',
+      performanceDate: '26/10/2024',
+      tags: ['melodic', 'progressive', 'driving'],
+      thumbnailSrc: 'innerbound_red_den_two.jpg',
+    },
+    {
+      _type: 'performance',
+      date: { start: '19/04/2024', end: '21/04/2024' },
+      name: 'Te Kopi 2024',
+      location: 'Near Cape Palliser, New Zealand',
+    },
+  ],
+
   '2023': [
     {
       _type: 'innerbound-performance',
